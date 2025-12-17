@@ -1,0 +1,19 @@
+Audio Visualizer Program
+    Concept:
+        Looking at the examples of what we were doing in class I want to create an audio visualizer. I want something similiar
+        to the way the worm moves in our in class examples but that it responds to the music in the background. 
+    Brief:
+        The visualization part matters second to the audio working and is dependent on the beat of the song. It can be done one of 
+        two ways I can have the audio itsewlf infleunce the visualization
+    Psudeo Code/Reference/Planning: 
+    Classes:
+        Waves
+        Particles
+    Notes:
+        Syncing
+        Amplitudes at different frequenceies p5.waveform and p5.fft (will spit out different frequenceies for visualization)
+        Interactive Music video different things happeing at different parts of the song.Give user agecny and change task based
+        on different parts of the song. Third array as multiplier which increases and then decreases back to what it was. Look into 
+        check back into sound file for whereever you are in the song and use states to tranistion between different elements. Keep
+        aall elements until end of song.
+
